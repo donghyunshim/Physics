@@ -196,7 +196,7 @@ const config = {
       gravity: { y: 0 }
     }
   },
-  scene: [Win, Menu, Stage1, Stage2, Stage3]
+  scene: [Menu, Stage1, Stage2, Stage3, Win]
 };
 
 const game = new Phaser.Game(config);
