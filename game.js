@@ -35,7 +35,8 @@ class Stage1 extends Phaser.Scene {
     });
 
     this.physics.add.collider(arrow, bird1, function (arrow, bird1) {
-      this.scene.start('win');
+      game.scene.stop('stage1');
+      game.scene.start('win');
     });
   }
 }
